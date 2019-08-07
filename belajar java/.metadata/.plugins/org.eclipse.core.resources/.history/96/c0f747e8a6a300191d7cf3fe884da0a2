@@ -1,0 +1,30 @@
+package belajar.io;
+
+public class Student implements FileIO{
+	private String Name;
+	private double GPA;
+	
+	public Student(String name, double gpa) {
+		this.Name = name;
+		this.GPA = gpa;
+	}
+
+	public String getName() {
+		return this.Name;
+	}
+
+	public void setName(String newname) {
+		return (this.Name = newname);
+	}
+
+	public double getGPA() {
+		return GPA;
+	}
+
+	public void setGPA(double gPA) {
+		GPA = gPA;
+	}
+	
+	
+
+}

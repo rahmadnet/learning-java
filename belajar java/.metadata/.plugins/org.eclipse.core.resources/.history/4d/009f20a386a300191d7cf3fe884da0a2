@@ -1,0 +1,29 @@
+package belajar.io;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class FileIO
+{
+
+	public static void main(String[] args) 
+	{
+		File file = new File("test.txt");
+		
+		//Write your name and age to the file
+		try
+		{
+			PrintWriter output = new PrintWriter(file);
+			output.println("Nama : Rahmad Nasution ");
+			output.print("Umur : " +24);
+			output.close();
+		} catch (IOException ex) {
+			System.out.printf("EROR : %s\n", ex);
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+/home/rahmad/apk/belajar java/.metadata/.plugins/org.eclipse.jdt.core
+1734100780.index
+3517680947.index
+2795854639.index
+2752413180.index
+166682371.index
+3220751573.index
+4233969036.index
+4199962850.index
+1500361320.index
+463137634.index
+646308851.index
+2813611263.index
+3571380172.index
+333264975.index
+802113511.index
+2925207758.index
+643164300.index
+653446258.index
+1392853814.index

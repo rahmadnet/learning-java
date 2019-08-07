@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Data_structur"/>
+	<classpathentry kind="src" path="Collection"/>
+	<classpathentry kind="src" path="Generic"/>
+	<classpathentry kind="src" path="Serialization"/>
+	<classpathentry kind="src" path="Multitherading"/>
+	<classpathentry kind="src" path="Documentation"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

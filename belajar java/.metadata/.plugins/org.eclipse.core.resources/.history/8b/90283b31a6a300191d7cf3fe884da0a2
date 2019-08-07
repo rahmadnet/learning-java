@@ -1,0 +1,9 @@
+package belajar.io;
+
+public class Student implements FileIO{
+
+	public Student(String string, double d) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,10 @@
+package belajar.io;
+
+public class ReadDir {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

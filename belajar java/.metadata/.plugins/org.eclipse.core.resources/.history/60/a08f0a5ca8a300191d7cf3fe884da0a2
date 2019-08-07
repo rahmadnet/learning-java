@@ -1,0 +1,52 @@
+package belajar.io;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class FileIO
+{
+
+	private static Scanner scan;
+
+	public static void main(String[] args) 
+	{
+		File file = new File("test.txt");
+		
+		//Write your name and age to the file
+		
+		try
+		{
+			PrintWriter output = new PrintWriter(file);
+			output.println("Rahmad Nasution ");
+			output.println(24);			
+
+			output.close();
+		} catch (IOException ex) {
+			System.out.printf("EROR : %s\n", ex);
+		}
+		
+		// Reads from the file
+		try {
+			scan = new Scanner(file);
+			String name = scan.nextLine();
+			int umur = scan.nextInt();
+		
+			System.out.printf("Name : %s\nUmur : %d\n",name, umur);
+		} catch (FileNotFoundException ex) {
+			System.out.printf("ERROR : %s/n",ex);		
+		}
+		
+		File file1 = new File("students.txt");
+		ArrayList<Student> students = new ArrayList<Student>();
+		students.add(new Student("Rahmad",3.921));
+		students.add(new Student("Rahmadi", 4.0));
+		students.add(new Student("Andari", 2.0));
+		
+		
+	}
+
+}
